@@ -4,6 +4,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -15,9 +19,14 @@ h1 {
     color: #F9FAF8;
 }
 
-
 .header {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    color: #F9FAF8;
+    margin: 10px;
 }
