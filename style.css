@@ -21,6 +21,12 @@ h1 {
     color: #F9FAF8;
 }
 
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -45,7 +51,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    margin-bottom: 20px;
 }
 
 .hero-text {
@@ -55,6 +61,11 @@ h1 {
     max-width: 500px;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .hero-text button {
