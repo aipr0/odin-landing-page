@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    border: 0px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -34,19 +35,39 @@ h1 {
 
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 .hero-text {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 500px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.hero-text img{
+.hero-text button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.hero-image img {
     max-width: 200px;
+    border: 5px solid #F9FAF8;
+    border-radius: 10px;
 }
 
 .footer {
