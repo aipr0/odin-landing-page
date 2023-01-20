@@ -89,10 +89,34 @@ h3 {
 
 .information {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     flex: 1;
-    justify-content: center;
     margin-top: 20px;
 }
+
+.information img {
+    max-height: 100px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.info-images {
+    display: flex;
+    margin-top: 20px;
+    gap: 50px;
+    text-align: center;
+}
+
+.info-images p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
+
+
 
 
 .footer {
