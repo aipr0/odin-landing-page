@@ -28,5 +28,25 @@ body {
 }
 
 .banner { 
-    
+    color: white;
+    background-color: #1f2937;
+}
+
+.navbar {
+    display: flex;
+    margin: 36px 72px;
+    gap: 72px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.navbar a {
+    font-size: 18px;
+}
+
+.banner-content {
+    margin: 72px;
 }
