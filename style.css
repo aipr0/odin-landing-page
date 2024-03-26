@@ -21,14 +21,14 @@ ul, ol {
 /* I apply the above to create a uniform appearance to work with throughout. I may adjust this later. */
 
 body {
-    height: 100vh;
+    height: 150vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
 }
 
-.banner { 
-    color: white;
+.banner {
+    color: #f9faf8;
     background-color: #1f2937;
 }
 
@@ -41,10 +41,15 @@ body {
 h1 {
     font-size: 24px;
     margin-right: auto;
+    text-decoration: underline;
 }
 
 .navbar a {
     font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #f9faf8cc;
 }
 
 .banner-content {
@@ -54,11 +59,67 @@ h1 {
 }
 
 .banner-text {
+    width: 800px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+.banner-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.banner-text button {
 
 }
 
+/* This doesn't mirror the example image exactly but I think it looks pretty */
 .banner-content img {
     width: 400px;
     border: 3px solid white;
     border-radius: 5px;
+}
+
+.information {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1;
+    margin: 32px 72px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 32px;
+}
+
+/* Placeholder images */
+img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.info-card {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 12px;
+}
+
+.info-card p {
+    text-align: center;
 }
