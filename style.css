@@ -59,7 +59,7 @@ h1 {
 }
 
 .banner-text {
-    width: 800px;
+    width: 600px;
     display: flex;
     flex-flow: column wrap;
     gap: 8px;
@@ -72,17 +72,26 @@ h2 {
 .banner-text p {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 36px;
 }
 
 .banner-text button {
-
+    color: #e5e7eb;
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: 600;
+    align-self: flex-start;
+    padding: 6px 36px;
+    border-radius: 5px;
 }
 
 /* This doesn't mirror the example image exactly but I think it looks pretty */
 .banner-content img {
     width: 400px;
+    height: auto;
     border: 3px solid white;
     border-radius: 5px;
+    align-self: stretch;
 }
 
 .information {
@@ -101,7 +110,7 @@ h3 {
 }
 
 /* Placeholder images */
-img {
+.information img {
     width: 200px;
     height: 200px;
     border: 3px solid red;
@@ -123,3 +132,27 @@ img {
 .info-card p {
     text-align: center;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+    flex: 1;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 800px;
+}
+
+.author {
+    font-size: 22px;
+    font-weight: bold;
+    width: 800px;
+    margin-left: auto;
+}
+
