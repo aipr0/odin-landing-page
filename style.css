@@ -21,7 +21,7 @@ ul, ol {
 /* I apply the above to create a uniform appearance to work with throughout. I may adjust this later. */
 
 body {
-    height: 200vh;
+    height: 220vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
@@ -119,14 +119,16 @@ h3 {
 .cards {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 48px;
+    margin-bottom: 120px;
 }
 
 .info-card {
+    width: 200px;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    gap: 12px;
+    gap: 24px;
 }
 
 .info-card p {
@@ -157,7 +159,7 @@ h3 {
 }
 
 .call-to-action {
-    flex: 0.7;
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
