@@ -2,7 +2,7 @@
     margin: 0px;
     border: 0px;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6; /* This here makes sizing tricky */
     font-family: 'Roboto', sans-serif;
 }
@@ -189,4 +189,16 @@ h3 {
     border: 2px solid white;
     border-radius: 5px;
     padding: 4px 32px;
+}
+
+.footer {
+    color: #e5e7eb;
+    background-color: #1f2937;
+    font-size: 18px;
+    text-decoration: underline;
+    text-align: center;
+    flex: 0.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
